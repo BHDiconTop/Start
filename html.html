@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous"/>
+	 <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>FaceMash</title>
+</head>
+<body>
+<div class="h1">
+	<h1  style="color: white">IconTop</h1>
+</div>
+	<h2 style="color: white">OR</h2>
+	<h1 style="color: white" class="d">Click to start and chose who is better</h1>
+
+<div class="t">	
+	<div class="block" style="position: relative;right: 220px;">
+
+	<script type="text/javascript">
+		var arr = ['2.jpg', '3.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.png', '11.jpg', '12.jpg'],
+			block = document.querySelector('.block'),
+			i = 0;
+
+			block.onclick = boom;
+
+			function boom() {
+				block.style.backgroundImage='url(pic/'+arr[i]+')';
+				i++;
+
+				if (i == arr.length) {
+					i = 0;
+			}
+		}
+	</script>
+
+</div>
+</div>
+
+<div class="2class">
+
+	<div class="block2">
+
+	<script type="text/javascript">
+		var ar = ['1.png', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'],
+			block2 = document.querySelector('.block2'),
+			o = 0;
+
+			block2.onclick = boom;
+
+			function boom() {
+				block2.style.backgroundImage='url(pic1/'+ar[o]+')';
+				o++;
+
+				if (i == ar.length) {
+					o = 0;
+			}
+		}
+	</script>
+<div class="img1">
+	<img src="10.jpg">
+</div>
+
+</div>
+</div>	
+
+</body>
+</html>
